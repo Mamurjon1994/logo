@@ -1,0 +1,24 @@
+.box{ background-color: bisque;
+width: 78px;
+height: 15px;
+border-radius: 15px;
+padding: 8px;
+margin: auto;
+margin-top: 150px;
+box-shadow: 0px 0px 5px 5px red;
+}
+body{
+    background-image: linear-gradient(150deg, red, yellow, yellowgreen, green, gray);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.pos-sticky{
+            width: 100vw;
+           height: 50px; 
+            background-color: red;
+            position: fixed;
+            top:-25px;
+            left: -5px;}
